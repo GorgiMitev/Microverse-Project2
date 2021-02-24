@@ -19,6 +19,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .nav1 {
@@ -348,10 +349,11 @@ cite {
   margin: 1rem 0.5rem;
 }
 
-.funding-heading h3 {
+.grid-title {
   color: red;
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .funding-nav ul .border {
@@ -441,6 +443,116 @@ li a img {
 
 .funding-card-box3 p a span {
   color: #a9b2bb;
+}
+
+/* Category */
+
+.categories {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.grid-item {
+  margin-right: 2rem;
+}
+
+.img-box {
+  width: 21rem;
+  height: 15rem;
+  display: block;
+  position: relative;
+}
+
+.img-box::after {
+  content: "" ;
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/game-stop.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.titles {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  z-index: 0;  
+}
+
+.most-popular {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+
+.img-title2 a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+cite a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+cite {
+  color: gray;
+  font-size: 13px;
+}
+
+.img-box2 {
+  height: 6rem;
+  width: 100%;
+  background-color: rgb(254,242,241);
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  color: red;
+}
+
+.titles1 {
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.titles1 a {
+  color: red;
+  text-decoration: none;
+}
+
+.small-img {
+  height: auto;
+  width: 6.5rem;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+.latest-title {
+  padding-bottom: 0.2rem;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+
+.img-title3 {
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /* Footer */
