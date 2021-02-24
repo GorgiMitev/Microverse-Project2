@@ -19,6 +19,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .nav1 {
@@ -459,11 +460,6 @@ li a img {
   margin-right: 2rem;
 }
 
-.small-img {
-  height: 9rem;
-  width: auto;
-}
-
 .img-box {
   width: 21rem;
   height: 15rem;
@@ -518,7 +514,46 @@ cite {
   font-size: 13px;
 }
 
+.img-box2 {
+  height: 6rem;
+  width: 100%;
+  background-color: rgb(254,242,241);
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  color: red;
+}
 
+.titles1 {
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.titles1 a {
+  color: red;
+  text-decoration: none;
+}
+
+.small-img {
+  height: auto;
+  width: 6.5rem;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+.latest-title {
+  padding-bottom: 0.2rem;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+
+.img-title3 {
+  font-weight: bold;
+  font-size: 14px;
+}
 
 /* Footer */
 .footer1 {
