@@ -452,12 +452,12 @@ li a img {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
 .grid-item {
   margin-right: 2rem;
+  margin-top: 1.5rem;
 }
 
 .img-box {
@@ -467,7 +467,7 @@ li a img {
   position: relative;
 }
 
-.img-box::after {
+#pic1.img-box::after {
   content: "" ;
   background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
   url(./img/game-stop.jpg);
@@ -480,6 +480,46 @@ li a img {
   right: 0;
   position: absolute;
   z-index: -1;
+}
+
+#pic2 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/iphone.webp);
+}
+
+#pic3 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/charging-cable.jpg);
+}
+
+#pic4 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/robots.jpg);
+}
+
+#pic5 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/high-img.webp);
+}
+
+#pic6 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/code.webp);
+}
+
+#pic7 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/camera-img.webp);
+}
+
+#pic8 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/man-car.jpg);
+}
+
+#pic9 {
+  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+  url(./img/mplified.jpg);
 }
 
 .titles {
@@ -515,7 +555,7 @@ cite {
 }
 
 .img-box2 {
-  height: 6rem;
+  height: 5.5rem;
   width: 100%;
   background-color: rgb(254,242,241);
   display: flex;
@@ -540,6 +580,7 @@ cite {
   margin-top: 1px;
   margin-right: 1px;
   margin-bottom: 1px;
+  object-fit: cover;
 }
 
 .latest-title {
@@ -553,6 +594,29 @@ cite {
 .img-title3 {
   font-weight: bold;
   font-size: 14px;
+}
+
+.articles {
+  display: block;
+  margin: 0.25rem 0.15rem;
+}
+
+ul .article-li {
+  list-style: none;
+}
+
+ul .article-li::before {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em; margin-top: 0.25em;}
+
+.article-li {
+  border-bottom: 1px solid rgb(172, 161, 161);
+  padding-left: 1.1rem;
+}
+
+.article-li a {
+  color: rgb(92, 89, 89);
+  font-size: 13px;
 }
 
 /* Footer */
