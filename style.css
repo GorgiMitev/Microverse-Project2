@@ -271,6 +271,12 @@ ul li ul:hover {
   font-size: 13px;
 }
 
+.img-title2 a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .icon p a {
   text-decoration: none;
   font-size: 14px;
@@ -544,8 +550,8 @@ a  h3 {
 #pic1.img-box::after {
   content: "";
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/game-stop.jpg);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/game-stop.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -559,50 +565,50 @@ a  h3 {
 
 #pic2 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/iphone.webp);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/iphone.webp);
 }
 
 #pic3 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/charging-cable.jpg);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/charging-cable.jpg);
 }
 
 #pic4 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/robots.jpg);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/robots.jpg);
 }
 
 #pic5 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/high-img.webp);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/high-img.webp);
 }
 
 #pic6 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/code.webp);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/code.webp);
 }
 
 #pic7 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/camera-img.webp);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/camera-img.webp);
 }
 
 #pic8 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/man-car.jpg);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/man-car.jpg);
 }
 
 #pic9 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-      url(./img/mplified.jpg);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/mplified.jpg);
 }
 
 .most-popular {
@@ -611,12 +617,6 @@ a  h3 {
   text-transform: uppercase;
   letter-spacing: 0.1px;
   font-weight: 300;
-}
-
-.img-title2 a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
 }
 
 .img-box2 {
