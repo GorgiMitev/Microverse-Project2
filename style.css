@@ -70,8 +70,6 @@ header {
   border-top-left-radius: 40px;
 }
 
-
-
 .title {
   width: 50%;
   text-align: left;
@@ -82,6 +80,12 @@ header {
 
 p.title {
   font-size: 24px;
+}
+
+cite a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 ul li a {
@@ -155,12 +159,6 @@ ul li ul {
 .titles1 {
   margin-top: 0.5rem;
   margin-left: 0.2rem;
-}
-
-cite a {
-  color: gray;
-  text-decoration: none;
-  font-size: 13px;
 }
 
 div.dropdown ul {
@@ -510,7 +508,7 @@ li a img {
   margin: 0.5rem 0;
 }
 
-a  h3 {
+a h3 {
   color: #000;
 }
 
@@ -544,9 +542,8 @@ a  h3 {
 #pic1.img-box::after {
   content: "";
   background: 
-      linear-gradient(rgba(175, 165, 165, 0.363), 
-      rgba(29, 29, 29, 0.877)),
-      url(./img/game-stop.jpg);
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/game-stop.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -560,8 +557,7 @@ a  h3 {
 
 #pic2 {
   background: 
-      linear-gradient(rgba(175, 165, 165, 0.363),
-      rgba(29, 29, 29, 0.877)),
+      linear-gradient(rgba(175,165,165,0.363), rgba(29,29,29,0.877)),
       url(./img/iphone.webp);
 }
 
