@@ -544,7 +544,8 @@ a  h3 {
 #pic1.img-box::after {
   content: "";
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
       url(./img/game-stop.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
@@ -559,7 +560,8 @@ a  h3 {
 
 #pic2 {
   background: 
-  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      linear-gradient(rgba(175, 165, 165, 0.363),
+      rgba(29, 29, 29, 0.877)),
       url(./img/iphone.webp);
 }
 
@@ -672,7 +674,7 @@ ul .article-li::before {
   width: 1em;
   margin-left: -1em;
   margin-top: 0.25em;
-  }
+}
 
 /* Latest deal */
 
