@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+cite {
+  color: gray;
+  font-size: 13px;
+}
+
 .flex {
   display: flex;
 }
@@ -64,6 +69,8 @@ header {
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
 }
+
+
 
 .title {
   width: 50%;
@@ -143,6 +150,11 @@ ul li ul {
   justify-content: flex-start;
   list-style-type: none;
   color: black;
+}
+
+.titles1 {
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
 }
 
 div.dropdown ul {
@@ -229,6 +241,18 @@ ul li ul:hover {
 .small2 a {
   text-decoration: none;
   color: white;
+}
+
+.titles {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  z-index: 0;  
+}
+
+.deals-p a {
+  color: red;
+  font-size: 15px;
 }
 
 .icon p a {
@@ -341,10 +365,6 @@ a h4 {
   text-align: right;
   color: white;
   padding: 3px;
-}
-
-cite {
-  color: white;
 }
 
 .checkbtn {
@@ -507,8 +527,9 @@ a  h3 {
 
 #pic1.img-box::after {
   content: "";
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/game-stop.jpg);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/game-stop.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -521,50 +542,51 @@ a  h3 {
 }
 
 #pic2 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/iphone.webp);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/iphone.webp);
 }
 
 #pic3 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/charging-cable.jpg);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/charging-cable.jpg);
 }
 
 #pic4 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/robots.jpg);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/robots.jpg);
 }
 
 #pic5 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/high-img.webp);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/high-img.webp);
 }
 
 #pic6 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/code.webp);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/code.webp);
 }
 
 #pic7 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/camera-img.webp);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/camera-img.webp);
 }
 
 #pic8 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/man-car.jpg);
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/man-car.jpg);
 }
 
 #pic9 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/mplified.jpg);
-}
-
-.titles {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 0.5rem;
-  z-index: 0;  
+  background: 
+  linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+      url(./img/mplified.jpg);
 }
 
 .most-popular {
@@ -587,11 +609,6 @@ cite a {
   font-size: 13px;
 }
 
-cite {
-  color: gray;
-  font-size: 13px;
-}
-
 .img-box2 {
   height: 5.5rem;
   width: 100%;
@@ -600,11 +617,6 @@ cite {
   justify-content: space-around;
   margin: 0 auto;
   color: red;
-}
-
-.titles1 {
-  margin-top: 0.5rem;
-  margin-left: 0.2rem;
 }
 
 .titles1 a {
@@ -639,6 +651,11 @@ cite {
   margin: 0.25rem 0.15rem;
 }
 
+.article-li {
+  border-bottom: 1px solid rgb(172, 161, 161);
+  padding-left: 1.1rem;
+}
+
 ul .article-li {
   list-style: none;
 }
@@ -646,11 +663,6 @@ ul .article-li {
 ul .article-li::before {content: "•"; color: red;
   display: inline-block; width: 1em;
   margin-left: -1em; margin-top: 0.25em;}
-
-.article-li {
-  border-bottom: 1px solid rgb(172, 161, 161);
-  padding-left: 1.1rem;
-}
 
 .article-li a {
   color: rgb(92, 89, 89);
@@ -662,11 +674,6 @@ ul .article-li::before {content: "•"; color: red;
 .latest-deals {
   width: 60%;
   margin: 8rem auto;
-}
-
-.deals-p a {
-  color: red;
-  font-size: 15px;
 }
 
 .img-deals {
@@ -914,12 +921,6 @@ ul .article-li::before {content: "•"; color: red;
     display: block;
   }
 
-  .main-card {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
   .big img {
     display: none;
   }
@@ -1113,5 +1114,4 @@ ul .article-li::before {content: "•"; color: red;
   footer {
     display: flex;
   }
-
 }
