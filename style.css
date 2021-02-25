@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;1,600&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Newsreader', serif;
 }
 
 :root {
@@ -645,6 +651,42 @@ ul .article-li::before {content: "•"; color: red;
 .article-li a {
   color: rgb(92, 89, 89);
   font-size: 13px;
+}
+
+/* Latest deal */
+
+.latest-deals {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.deals-p a {
+  color: red;
+  font-size: 15px;
+}
+
+.img-deals {
+  width: 15.4rem;
+  height: 11.4rem;
+}
+
+.cite-deals {
+  position: absolute;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  line-height: 0.1rem;
+  margin: 10px 0 20px;
+  z-index: 1;
+}
+
+.cite-deals .cite-price {
+  font-size: 14px;
+  position: relative;
+}
+
+.price-p {
+  margin-left: 3rem;
+  color: rgb(70, 64, 64);
 }
 
 /* Footer */
