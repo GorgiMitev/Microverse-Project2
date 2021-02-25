@@ -157,6 +157,12 @@ ul li ul {
   margin-left: 0.2rem;
 }
 
+cite a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
+}
+
 div.dropdown ul {
   display: flex;
   padding: 10px 3px;
@@ -253,6 +259,16 @@ ul li ul:hover {
 .deals-p a {
   color: red;
   font-size: 15px;
+}
+
+.titles1 a {
+  color: red;
+  text-decoration: none;
+}
+
+.article-li a {
+  color: rgb(92, 89, 89);
+  font-size: 13px;
 }
 
 .icon p a {
@@ -603,12 +619,6 @@ a  h3 {
   text-decoration: none;
 }
 
-cite a {
-  color: gray;
-  text-decoration: none;
-  font-size: 13px;
-}
-
 .img-box2 {
   height: 5.5rem;
   width: 100%;
@@ -617,11 +627,6 @@ cite a {
   justify-content: space-around;
   margin: 0 auto;
   color: red;
-}
-
-.titles1 a {
-  color: red;
-  text-decoration: none;
 }
 
 .small-img {
@@ -660,14 +665,14 @@ ul .article-li {
   list-style: none;
 }
 
-ul .article-li::before {content: "•"; color: red;
-  display: inline-block; width: 1em;
-  margin-left: -1em; margin-top: 0.25em;}
-
-.article-li a {
-  color: rgb(92, 89, 89);
-  font-size: 13px;
-}
+ul .article-li::before {
+  content: "•"; 
+  color: red;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  margin-top: 0.25em;
+  }
 
 /* Latest deal */
 
@@ -1099,12 +1104,6 @@ ul .article-li::before {content: "•"; color: red;
 
   .nav3 {
     display: block;
-  }
-
-  .main-card {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
   }
 
   .big img {
