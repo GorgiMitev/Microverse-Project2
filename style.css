@@ -17,6 +17,10 @@ body {
   --red: rgb(250, 7, 7);
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
 }
@@ -256,6 +260,10 @@ ul li ul:hover {
   font-weight: 300;
 }
 
+ul .red a {
+  color: red;
+}
+
 .img-section p h1 a {
   color: white;
 }
@@ -370,10 +378,6 @@ cite {
   padding-right: 1rem;
 }
 
-ul .red a {
-  color: red;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -470,12 +474,8 @@ li a img {
   margin: 0.5rem 0;
 }
 
-a  h3{
+a  h3 {
   color: #000;
-}
-
-a {
-  text-decoration: none;
 }
 
 .img-news {
@@ -506,7 +506,7 @@ a {
 }
 
 #pic1.img-box::after {
-  content: "" ;
+  content: "";
   background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
   url(./img/game-stop.jpg);
   background-color: transparent;
@@ -735,6 +735,7 @@ ul .article-li::before {content: "•"; color: red;
 }
 
 /* For mobile phones: */
+
 @media only screen and (max-width: 568px) {
   * {
     box-sizing: border-box;
