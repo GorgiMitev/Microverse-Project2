@@ -14,7 +14,7 @@ I am using float grid and flex and any options I choose to layout and style the 
 
 ## Live Demo
 
-[Live Demo Link] [MilestoneOne](https://stephanie041996.github.io/week2Milestone1/)
+[Live Demo Link] [MilestoneOne](https://solenka1.github.io/Microverse-Project2/)
 
 
 ## Authors
