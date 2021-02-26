@@ -184,7 +184,7 @@ li:hover {
   cursor: pointer;
 }
 
-ul li:hover>ul,
+ul li:hover > ul,
 ul li ul:hover {
   visibility: visible;
   opacity: 1;
@@ -928,6 +928,11 @@ ul .article-li::before {
   .big img {
     display: none;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1111,5 +1116,7 @@ ul .article-li::before {
 
   footer {
     display: flex;
+    flex-direction: row;
+    float: left;
   }
 }
