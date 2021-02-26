@@ -809,11 +809,11 @@ ul .article-li::before {
 
   .categories {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .grid-item {
-    width: 92%;
+    width: 93%;
   }
 
   .img-section {
@@ -942,9 +942,20 @@ ul .article-li::before {
     padding: 0;
   }
 
+  header {
+    width: 100%;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 
   .latest-news,
@@ -956,9 +967,12 @@ ul .article-li::before {
 
   .latest-box1,
   .latest-deals-2 {
-    grid-column: 1/4;
     padding-left: 0;
-    width: 55%;
+    width: 100%;
+  }
+
+  .img-box {
+    width: 100%;
   }
 
   .img-articles {
@@ -975,7 +989,7 @@ ul .article-li::before {
   .funding-heading {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
   }
 
   .funding-nav {
@@ -986,22 +1000,37 @@ ul .article-li::before {
   .main-card {
     display: flex;
     flex-direction: column;
+    width: 100%;
 
   }
 
   .funding-card-box1,
   .funding-card-box2,
   .funding-card-box3 {
-    width: 45%;
+    width: 100%;
   }
 
   .categories {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    
   }
 
   .grid-item {
-    width: 90%;
+    width: 100%;
+  }
+
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5,
+  #pic6,
+  #pic7,
+  #pic8,
+  #pic9 {
+    width: 370px;
+    background-repeat: no-repeat;
   }
 
   .img-section {
@@ -1117,6 +1146,31 @@ ul .article-li::before {
   footer {
     display: flex;
     flex-direction: row;
-    float: left;
+    width: 100%;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
   }
+
+  .footer2 {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+* {
+  box-sizing: border-box;
+}
+
+  .latest-news,
+  .latest-deals,
+  .latest-funding,
+  .categories {
+    width: 100%;
+  }
+
+  .grid-item {
+    width: 82%;
+    padding-left: 0;
+  }
+
 }
