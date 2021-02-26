@@ -269,6 +269,12 @@ ul li ul:hover {
   font-size: 13px;
 }
 
+.img-title2 a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .icon p a {
   text-decoration: none;
   font-size: 14px;
@@ -557,7 +563,8 @@ a h3 {
 
 #pic2 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
     url(./img/iphone.webp);
 }
 
@@ -577,31 +584,36 @@ a h3 {
 
 #pic5 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
     url(./img/high-img.webp);
 }
 
 #pic6 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
     url(./img/code.webp);
 }
 
 #pic7 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
     url(./img/camera-img.webp);
 }
 
 #pic8 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
     url(./img/man-car.jpg);
 }
 
 #pic9 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    linear-gradient(rgba(175, 165, 165, 0.363), 
+      rgba(29, 29, 29, 0.877)),
     url(./img/mplified.jpg);
 }
 
@@ -611,12 +623,6 @@ a h3 {
   text-transform: uppercase;
   letter-spacing: 0.1px;
   font-weight: 300;
-}
-
-.img-title2 a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
 }
 
 .img-box2 {
@@ -950,6 +956,12 @@ ul .article-li::before {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 3px;
+    border-right: none;
+    padding-left: 20px;
+    border-right-style: none;
   }
 
   .grid {
@@ -1001,7 +1013,6 @@ ul .article-li::before {
     display: flex;
     flex-direction: column;
     width: 100%;
-
   }
 
   .funding-card-box1,
@@ -1013,7 +1024,6 @@ ul .article-li::before {
   .categories {
     display: flex;
     flex-direction: column;
-    
   }
 
   .grid-item {
@@ -1105,15 +1115,6 @@ ul .article-li::before {
     width: 100%;
   }
 
-  .title {
-    width: 100%;
-    text-align: left;
-    padding-bottom: 3px;
-    border-right: none;
-    padding-left: 20px;
-    border-right-style: none;
-  }
-
   .title p {
     font-size: 15px;
   }
@@ -1162,9 +1163,9 @@ ul .article-li::before {
 }
 
   .latest-news,
-  .latest-deals,
-  .latest-funding,
-  .categories {
+    .latest-deals,
+      .latest-funding,
+    .categories {
     width: 100%;
   }
 
@@ -1172,5 +1173,4 @@ ul .article-li::before {
     width: 82%;
     padding-left: 0;
   }
-
 }
