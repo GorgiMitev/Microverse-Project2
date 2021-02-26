@@ -184,7 +184,7 @@ li:hover {
   cursor: pointer;
 }
 
-ul li:hover > ul,
+ul li:hover>ul,
 ul li ul:hover {
   visibility: visible;
   opacity: 1;
@@ -563,7 +563,7 @@ a h3 {
 
 #pic2 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), 
+    linear-gradient(rgba(175, 165, 165, 0.363),
       rgba(29, 29, 29, 0.877)),
     url(./img/iphone.webp);
 }
@@ -584,35 +584,35 @@ a h3 {
 
 #pic5 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), 
+    linear-gradient(rgba(175, 165, 165, 0.363),
       rgba(29, 29, 29, 0.877)),
     url(./img/high-img.webp);
 }
 
 #pic6 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), 
+    linear-gradient(rgba(175, 165, 165, 0.363),
       rgba(29, 29, 29, 0.877)),
     url(./img/code.webp);
 }
 
 #pic7 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), 
+    linear-gradient(rgba(175, 165, 165, 0.363),
       rgba(29, 29, 29, 0.877)),
     url(./img/camera-img.webp);
 }
 
 #pic8 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), 
+    linear-gradient(rgba(175, 165, 165, 0.363),
       rgba(29, 29, 29, 0.877)),
     url(./img/man-car.jpg);
 }
 
 #pic9 {
   background:
-    linear-gradient(rgba(175, 165, 165, 0.363), 
+    linear-gradient(rgba(175, 165, 165, 0.363),
       rgba(29, 29, 29, 0.877)),
     url(./img/mplified.jpg);
 }
@@ -1158,14 +1158,14 @@ ul .article-li::before {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
   .latest-news,
-    .latest-deals,
-      .latest-funding,
-    .categories {
+  .latest-deals,
+  .latest-funding,
+  .categories {
     width: 100%;
   }
 
