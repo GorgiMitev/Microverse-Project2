@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;1,600&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Newsreader', serif;
 }
 
 :root {
@@ -9,6 +15,15 @@
   --black: rgb(8, 8, 8);
   --grey: rgb(128, 128, 128);
   --red: rgb(250, 7, 7);
+}
+
+a {
+  text-decoration: none;
+}
+
+cite {
+  color: gray;
+  font-size: 12px;
 }
 
 .flex {
@@ -65,6 +80,12 @@ header {
 
 p.title {
   font-size: 24px;
+}
+
+cite a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 ul li a {
@@ -133,6 +154,11 @@ ul li ul {
   justify-content: flex-start;
   list-style-type: none;
   color: black;
+}
+
+.titles1 {
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
 }
 
 div.dropdown ul {
@@ -221,6 +247,34 @@ ul li ul:hover {
   color: white;
 }
 
+.titles {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  z-index: 0;
+}
+
+.deals-p a {
+  color: red;
+  font-size: 15px;
+}
+
+.titles1 a {
+  color: red;
+  text-decoration: none;
+}
+
+.article-li a {
+  color: rgb(92, 89, 89);
+  font-size: 13px;
+}
+
+.img-title2 a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .icon p a {
   text-decoration: none;
   font-size: 14px;
@@ -248,6 +302,10 @@ ul li ul:hover {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 300;
+}
+
+ul .red a {
+  color: red;
 }
 
 .img-section p h1 a {
@@ -329,13 +387,11 @@ a h4 {
   padding: 3px;
 }
 
-cite {
-  color: white;
-}
-
 .checkbtn {
   display: none;
 }
+
+/* Latest Funding section */
 
 .latest-funding {
   width: 60%;
@@ -353,7 +409,7 @@ cite {
   color: red;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .funding-nav ul .border {
@@ -362,7 +418,7 @@ cite {
   padding-right: 1rem;
 }
 
-.main-card {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
@@ -445,6 +501,28 @@ li a img {
   color: #a9b2bb;
 }
 
+/* Latest news */
+
+.latest-news {
+  width: 60%;
+  margin: 15rem auto;
+}
+
+.art-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+a h3 {
+  color: #000;
+}
+
+.img-news {
+  height: 10rem;
+  width: 15.4rem;
+}
+
 /* Category */
 
 .categories {
@@ -461,16 +539,17 @@ li a img {
 }
 
 .img-box {
-  width: 21rem;
+  width: 21.4rem;
   height: 15rem;
   display: block;
   position: relative;
 }
 
 #pic1.img-box::after {
-  content: "" ;
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/game-stop.jpg);
+  content: "";
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/game-stop.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -483,50 +562,51 @@ li a img {
 }
 
 #pic2 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/iphone.webp);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/iphone.webp);
 }
 
 #pic3 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/charging-cable.jpg);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/charging-cable.jpg);
 }
 
 #pic4 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/robots.jpg);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/robots.jpg);
 }
 
 #pic5 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/high-img.webp);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/high-img.webp);
 }
 
 #pic6 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/code.webp);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/code.webp);
 }
 
 #pic7 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/camera-img.webp);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/camera-img.webp);
 }
 
 #pic8 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/man-car.jpg);
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/man-car.jpg);
 }
 
 #pic9 {
-  background: linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
-  url(./img/mplified.jpg);
-}
-
-.titles {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 0.5rem;
-  z-index: 0;  
+  background:
+    linear-gradient(rgba(175, 165, 165, 0.363), rgba(29, 29, 29, 0.877)),
+    url(./img/mplified.jpg);
 }
 
 .most-popular {
@@ -537,41 +617,14 @@ li a img {
   font-weight: 300;
 }
 
-.img-title2 a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-cite a {
-  color: gray;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-cite {
-  color: gray;
-  font-size: 13px;
-}
-
 .img-box2 {
   height: 5.5rem;
   width: 100%;
-  background-color: rgb(254,242,241);
+  background-color: rgb(254, 242, 241);
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
   color: red;
-}
-
-.titles1 {
-  margin-top: 0.5rem;
-  margin-left: 0.2rem;
-}
-
-.titles1 a {
-  color: red;
-  text-decoration: none;
 }
 
 .small-img {
@@ -601,22 +654,53 @@ cite {
   margin: 0.25rem 0.15rem;
 }
 
-ul .article-li {
-  list-style: none;
-}
-
-ul .article-li::before {content: "•"; color: red;
-  display: inline-block; width: 1em;
-  margin-left: -1em; margin-top: 0.25em;}
-
 .article-li {
   border-bottom: 1px solid rgb(172, 161, 161);
   padding-left: 1.1rem;
 }
 
-.article-li a {
-  color: rgb(92, 89, 89);
-  font-size: 13px;
+ul .article-li {
+  list-style: none;
+}
+
+ul .article-li::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-top: 0.25em;
+}
+
+/* Latest deal */
+
+.latest-deals {
+  width: 60%;
+  margin: 8rem auto;
+}
+
+.img-deals {
+  width: 15.4rem;
+  height: 11.4rem;
+}
+
+.cite-deals {
+  position: absolute;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  line-height: 0.1rem;
+  margin: 10px 0 20px;
+  z-index: 1;
+}
+
+.cite-deals .cite-price {
+  font-size: 14px;
+  position: relative;
+}
+
+.price-p {
+  margin-left: 3rem;
+  color: rgb(70, 64, 64);
 }
 
 /* Footer */
@@ -661,6 +745,7 @@ ul .article-li::before {content: "•"; color: red;
 }
 
 /* For mobile phones: */
+
 @media only screen and (max-width: 568px) {
   * {
     box-sizing: border-box;
@@ -668,10 +753,73 @@ ul .article-li::before {content: "•"; color: red;
     padding: 0;
   }
 
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-news,
+  .latest-deals,
+  .latest-funding,
+  .categories {
+    width: 100%;
+  }
+
+  .latest-box1,
+  .latest-deals-2 {
+    grid-column: 1/4;
+    padding-left: 0;
+    width: 150%;
+  }
+
+  .img-articles {
+    display: inline-block;
+    float: left;
+  }
+
+  .img-news,
+  .img-deals {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .funding-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .funding-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding-card-box1,
+  .funding-card-box2,
+  .funding-card-box3 {
+    width: 100%;
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-item {
+    width: 93%;
+  }
+
   .img-section {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .small-col {
@@ -689,18 +837,20 @@ ul .article-li::before {content: "•"; color: red;
     font-weight: 800;
     padding-top: 5px;
     padding-left: 2px;
+    width: 100%;
   }
 
   .nav4 {
     padding-top: 1px;
     background-color: yellow;
     height: 20px;
+    width: 100%;
   }
 
   .nav4 a {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .latest a {
@@ -737,6 +887,7 @@ ul .article-li::before {content: "•"; color: red;
   }
 
   .title {
+    margin-top: 2rem;
     width: 100%;
     text-align: left;
     padding-bottom: 3px;
@@ -746,6 +897,8 @@ ul .article-li::before {content: "•"; color: red;
   }
 
   .title p {
+    display: flex;
+    flex-direction: column;
     font-size: 15px;
   }
 
@@ -770,26 +923,116 @@ ul .article-li::before {content: "•"; color: red;
     display: block;
   }
 
-  .main-card {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
   .big img {
     display: none;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
-  .funding-card1 {
-    display: none;
+  header {
+    width: 100%;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 3px;
+    border-right: none;
+    padding-left: 20px;
+    border-right-style: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .latest-news,
+  .latest-deals,
+  .latest-funding,
+  .categories {
+    width: 100%;
+  }
+
+  .latest-box1,
+  .latest-deals-2 {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .img-box {
+    width: 100%;
+  }
+
+  .img-articles {
+    display: inline-block;
+    float: left;
+  }
+
+  .img-news,
+  .img-deals {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .funding-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .funding-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .funding-card-box1,
+  .funding-card-box2,
+  .funding-card-box3 {
+    width: 100%;
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5,
+  #pic6,
+  #pic7,
+  #pic8,
+  #pic9 {
+    width: 370px;
+    background-repeat: no-repeat;
   }
 
   .img-section {
@@ -864,15 +1107,6 @@ ul .article-li::before {content: "•"; color: red;
     width: 100%;
   }
 
-  .title {
-    width: 100%;
-    text-align: left;
-    padding-bottom: 3px;
-    border-right: none;
-    padding-left: 20px;
-    border-right-style: none;
-  }
-
   .title p {
     font-size: 15px;
   }
@@ -898,13 +1132,37 @@ ul .article-li::before {content: "•"; color: red;
     display: block;
   }
 
-  .main-card {
+  .big img {
+    display: none;
+  }
+
+  footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer2 {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .latest-news,
+  .latest-deals,
+  .latest-funding,
+  .categories {
     width: 100%;
   }
 
-  .big img {
-    display: none;
+  .grid-item {
+    width: 82%;
+    padding-left: 0;
   }
 }
